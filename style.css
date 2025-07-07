@@ -1,0 +1,17 @@
+/*
+Theme Name: Sports Theme
+Theme URI: https://example.com/
+Author: Menounga Medzeme Loic Evans
+Author URI: https://example.com/
+Description: A custom WordPress theme with ACF and custom post types.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sports-theme
+Tags: custom-theme, acf, custom-post-type
+*/
+
+/* You can write your global styles below */
+#jpreOverlay{
+    display: none;
+}
