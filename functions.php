@@ -30,6 +30,7 @@ require_once get_template_directory() . '/inc/custom-post-types.php';
 if (function_exists('acf_add_local_field_group')) {
     require_once get_template_directory() . '/inc/acf-fields.php';
 }
+add_theme_support('post-thumbnails');
 
 function mytheme_enqueue_assets() {
     $template_uri = get_template_directory_uri();

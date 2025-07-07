@@ -127,67 +127,63 @@ get_header(); ?>
                         <div class="row">
 			        		<div class="col-sm-9">
 					        	<div class="latest-news-slider">
-					        		<div>
-										<div class="news-normal-block">
-						                    <div class="news-img">
-						                    	<a href="#">
-						                        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/latest/1.jpg" alt="" />
-						                    	</a>
-						                    </div>
-					                    	<h4 class="news-title"><a href="blog-single.html">FC Club Score Seven in CL Rout Match</a></h4>
-					                    	<div class="news-desc">
-					                    		<p>
-					                    			Blandit rutrum, erat et egestas ultricies, dolor tortor egestas enim, quiste rhoncus sem the purus eu sapien curabitur.Lorem Ipsum is therefore always free from repetitionetc.
-					                    		</p>
-					                    	</div>
-					                    	<div class="news-btn">
-					                    		<a class="primary-btn" href="#">Read More</a>
-					                    	</div>
-						                </div>			        			
-					        		</div>
-					        		<div>
-						                <div class="news-normal-block">
-						                    <div class="news-img">
-						                    	<a href="#">
-						                        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/latest/2.jpg" alt="" />
-						                    	</a>
-						                    </div>
-					                    	<h4 class="news-title"><a href="blog-single.html">FC Club Score Seven in CL Rout Match</a></h4>
-					                    	<div class="news-desc">
-					                    		<p>
-					                    			Blandit rutrum, erat et egestas ultricies, dolor tortor egestas enim, quiste rhoncus sem the purus eu sapien curabitur.Lorem Ipsum is therefore always free from repetitionetc.
-					                    		</p>
-					                    	</div>
-					                    	<div class="news-btn">
-					                    		<a class="primary-btn" href="#">Read More</a>
-					                    	</div>
-						                </div>			        			
-					        		</div>
-					        		<div>
-						                <div class="news-normal-block">
-						                    <div class="news-img">
-						                    	<a href="#">
-						                        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/latest/3.jpg" alt="" />
-						                    	</a>
-						                    </div>
-					                    	<h4 class="news-title"><a href="blog-single.html">FC Club Score Seven in CL Rout Match</a></h4>
-					                    	<div class="news-desc">
-					                    		<p>
-					                    			Blandit rutrum, erat et egestas ultricies, dolor tortor egestas enim, quiste rhoncus sem the purus eu sapien curabitur.Lorem Ipsum is therefore always free from repetitionetc.
-					                    		</p>
-					                    	</div>
-					                    	<div class="news-btn">
-					                    		<a class="primary-btn" href="#">Read More</a>
-					                    	</div>
-						                </div>
-					        		</div>
+					        		<?php
+$args = array(
+    'post_type' => 'post',
+    'posts_per_page' => 3
+);
+$latest_news = new WP_Query($args);
+
+if ($latest_news->have_posts()) :
+    while ($latest_news->have_posts()) : $latest_news->the_post(); ?>
+        <div>
+            <div class="news-normal-block">
+                <div class="news-img">
+                    <a href="<?php the_permalink(); ?>">
+                        <?php the_post_thumbnail('medium'); ?>
+                    </a>
+                </div>
+                <h4 class="news-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                <div class="news-desc">
+                    <p><?php echo wp_trim_words(get_the_excerpt(), 20); ?></p>
+                </div>
+                <div class="news-btn">
+                    <a class="primary-btn" href="<?php the_permalink(); ?>">Read More</a>
+                </div>
+            </div>
+        </div>
+    <?php endwhile;
+    wp_reset_postdata();
+endif;
+?>
+
 					        	</div>			        			
 			        		</div>
 			        		<div class="col-sm-3">			        			
 					        	<div class="latest-news-nav">
-									<div><img src="<?php echo get_template_directory_uri(); ?>/assets/images/latest/tb1.jpg" alt="" /></div>
-									<div><img src="<?php echo get_template_directory_uri(); ?>/assets/images/latest/tb2.jpg" alt="" /></div>
-									<div><img src="<?php echo get_template_directory_uri(); ?>/assets/images/latest/tb3.jpg" alt="" /></div>
+								<?php
+// Query the latest 3 posts
+$latest_posts = new WP_Query(array(
+    'posts_per_page' => 3,
+    'post_status'    => 'publish'
+));
+
+if ($latest_posts->have_posts()) :
+    while ($latest_posts->have_posts()) : $latest_posts->the_post();
+        if (has_post_thumbnail()) :
+            ?>
+            <div>
+                <div>
+                    <?php the_post_thumbnail('medium'); // or 'thumbnail', 'large', 'full' ?>
+        </div>
+            </div>
+            <?php
+        endif;
+    endwhile;
+    wp_reset_postdata();
+endif;
+?>
+
 								</div>
 			        		</div>
 			        	</div>
