@@ -65,7 +65,11 @@
                 <!-- Logo -->
                 <div class="col-md-2 col-sm-12 col-xs-12 logo">
                     <a href="<?php echo esc_url(home_url('/')); ?>">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="Logo">
+                        <?php if (get_theme_mod('custom_logo')): ?>
+                            <img src="<?php echo esc_url(get_theme_mod('custom_logo')); ?>" alt="<?php echo esc_attr(get_bloginfo('name')); ?>">
+                        <?php else: ?>
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="<?php echo esc_attr(get_bloginfo('name')); ?>">
+                        <?php endif; ?>
                     </a>
                 </div>
 
