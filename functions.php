@@ -68,3 +68,145 @@ function yourtheme_setup() {
     ));
 }
 add_action('after_setup_theme', 'yourtheme_setup');
+// Register ACF Blocks
+add_action('init', 'cm_sporty_register_acf_blocks');
+function cm_sporty_register_acf_blocks() {
+    if (function_exists('register_block_type')) {
+        register_block_type(get_template_directory() . '/blocks/cm-sporty-bookmakers');
+    }
+}
+
+// Add ACF Fields for the block
+add_action('acf/init', 'cm_sporty_bookmaker_block_fields');
+function cm_sporty_bookmaker_block_fields() {
+    acf_add_local_field_group(array(
+        'key' => 'group_cm_sporty_bookmaker',
+        'title' => 'CM Sporty Bookmaker Block',
+        'fields' => array(
+            array(
+                'key' => 'field_cm_sporty_block_title',
+                'label' => 'Block Title',
+                'name' => 'block_title',
+                'type' => 'text',
+                'default_value' => 'Meilleurs bookmakers',
+            ),
+            array(
+                'key' => 'field_cm_sporty_disclaimer',
+                'label' => 'Disclaimer Text',
+                'name' => 'disclaimer_text',
+                'type' => 'text',
+                'default_value' => '18+ | Annonce publicitaire | Jouer comporte des risques',
+            ),
+            array(
+                'key' => 'field_cm_sporty_bookmaker_rows',
+                'label' => 'Bookmaker Rows',
+                'name' => 'bookmaker_rows',
+                'type' => 'repeater',
+                'instructions' => 'Add multiple rows of bookmakers. Each row can contain multiple bookmakers.',
+                'sub_fields' => array(
+                    array(
+                        'key' => 'field_cm_sporty_row_title',
+                        'label' => 'Row Title',
+                        'name' => 'row_title',
+                        'type' => 'text',
+                        'placeholder' => 'e.g., Top Bookmakers, New Bookmakers, etc.',
+                    ),
+                    array(
+                        'key' => 'field_cm_sporty_bookmakers',
+                        'label' => 'Bookmakers in this row',
+                        'name' => 'bookmakers',
+                        'type' => 'repeater',
+                        'sub_fields' => array(
+                            array(
+                                'key' => 'field_cm_sporty_bookmaker_name',
+                                'label' => 'Bookmaker Name',
+                                'name' => 'bookmaker_name',
+                                'type' => 'text',
+                                'required' => 1,
+                            ),
+                            array(
+                                'key' => 'field_cm_sporty_logo',
+                                'label' => 'Logo',
+                                'name' => 'logo',
+                                'type' => 'image',
+                                'return_format' => 'array',
+                                'preview_size' => 'thumbnail',
+                                'library' => 'all',
+                            ),
+                            array(
+                                'key' => 'field_cm_sporty_rating',
+                                'label' => 'Rating',
+                                'name' => 'rating_score',
+                                'type' => 'number',
+                                'min' => 0,
+                                'max' => 10,
+                                'step' => 0.1,
+                                'default_value' => 9.0,
+                            ),
+                            array(
+                                'key' => 'field_cm_sporty_bonus',
+                                'label' => 'Bonus',
+                                'name' => 'bonus_amount',
+                                'type' => 'text',
+                                'placeholder' => 'e.g., 100€',
+                            ),
+                            array(
+                                'key' => 'field_cm_sporty_is_featured',
+                                'label' => 'Featured',
+                                'name' => 'is_featured',
+                                'type' => 'true_false',
+                                'default_value' => 0,
+                            ),
+                            array(
+                                'key' => 'field_cm_sporty_features',
+                                'label' => 'Features',
+                                'name' => 'features',
+                                'type' => 'textarea',
+                                'instructions' => 'One feature per line',
+                                'rows' => 3,
+                            ),
+                            array(
+                                'key' => 'field_cm_sporty_promo_code',
+                                'label' => 'Promo Code',
+                                'name' => 'promo_code',
+                                'type' => 'text',
+                                'placeholder' => 'e.g., STYVIP',
+                            ),
+                            array(
+                                'key' => 'field_cm_sporty_cta_link',
+                                'label' => 'CTA Link',
+                                'name' => 'cta_link',
+                                'type' => 'url',
+                                'placeholder' => 'https://bookmaker.com',
+                            ),
+                            array(
+                                'key' => 'field_cm_sporty_review_link',
+                                'label' => 'Review Link',
+                                'name' => 'review_link',
+                                'type' => 'url',
+                                'placeholder' => '/avis-bookmaker',
+                            ),
+                        ),
+                        'min' => 1,
+                        'layout' => 'block',
+                        'button_label' => 'Add Bookmaker',
+                    ),
+                ),
+                'min' => 1,
+                'layout' => 'block',
+                'button_label' => 'Add Row',
+            ),
+        ),
+        'location' => array(
+            array(
+                array(
+                    'param' => 'block',
+                    'operator' => '==',
+                    'value' => 'acf/cm-sporty-bookmakers',
+                ),
+            ),
+        ),
+        'position' => 'normal',
+        'style' => 'default',
+    ));
+}

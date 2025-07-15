@@ -1,0 +1,321 @@
+.cm-sporty-bookmaker-block {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.cm-sporty-header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.cm-sporty-title {
+    color: #1a237e;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border-bottom: 3px solid #ff6b35;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.cm-sporty-disclaimer {
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.cm-sporty-bookmaker-row {
+    margin-bottom: 40px;
+}
+
+.cm-sporty-row-title {
+    color: #1a237e;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ff6b35;
+}
+
+.cm-sporty-bookmaker-card {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cm-sporty-bookmaker-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.cm-sporty-bookmaker-card.cm-sporty-featured {
+    border: 2px solid #ff9800;
+    background: linear-gradient(135deg, #fff8e1 0%, #ffffff 100%);
+}
+
+.cm-sporty-rank-badge {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    background: #4caf50;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.cm-sporty-rank-number {
+    background: #1a237e;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.cm-sporty-bookmaker-info {
+    flex: 1;
+}
+
+.cm-sporty-bookmaker-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.cm-sporty-bookmaker-logo {
+    flex-shrink: 0;
+}
+
+.cm-sporty-bookmaker-logo img {
+    max-width: 80px;
+    max-height: 50px;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.cm-sporty-bookmaker-name {
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.cm-sporty-rating {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.cm-sporty-rating-score {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1a237e;
+}
+
+.cm-sporty-rating-total {
+    color: #666;
+    font-size: 1.2rem;
+}
+
+.cm-sporty-rating-link {
+    color: #1976d2;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.cm-sporty-rating-link:hover {
+    text-decoration: underline;
+}
+
+.cm-sporty-bonus-section {
+    flex: 1;
+    text-align: center;
+}
+
+.cm-sporty-bonus-label {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.cm-sporty-bonus-amount {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff9800;
+    margin-bottom: 15px;
+}
+
+.cm-sporty-features {
+    list-style: none;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.cm-sporty-features li {
+    color: #4caf50;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.cm-sporty-features li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.cm-sporty-promo-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cm-sporty-promo-code {
+    background: #f8f9fa;
+    border: 2px dashed #1a237e;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.cm-sporty-promo-label {
+    color: #666;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+
+.cm-sporty-promo-code-text {
+    color: #1a237e;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.cm-sporty-copy-btn {
+    background: #1a237e;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 0.8rem;
+    transition: background 0.3s ease;
+}
+
+.cm-sporty-copy-btn:hover {
+    background: #303f9f;
+}
+
+.cm-sporty-cta-section {
+    flex-shrink: 0;
+}
+
+.cm-sporty-cta-button {
+    background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.cm-sporty-cta-button:hover {
+    background: linear-gradient(135deg, #f57c00 0%, #e65100 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 152, 0, 0.4);
+    color: white;
+}
+
+.cm-sporty-no-promo {
+    color: #999;
+    font-size: 0.9rem;
+    font-style: italic;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.cm-sporty-empty-state {
+    text-align: center;
+    padding: 40px;
+    color: #666;
+    font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cm-sporty-bookmaker-card {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    
+    .cm-sporty-bookmaker-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .cm-sporty-title {
+        font-size: 2rem;
+    }
+    
+    .cm-sporty-row-title {
+        font-size: 1.5rem;
+    }
+    
+    .cm-sporty-bonus-amount {
+        font-size: 2rem;
+    }
+    
+    .cm-sporty-cta-button {
+        padding: 12px 30px;
+        font-size: 1rem;
+    }
+    
+    .cm-sporty-bookmaker-logo img {
+        max-width: 60px;
+        max-height: 40px;
+    }
+}
+
+/* Wide and Full Width Support */
+.alignwide .cm-sporty-bookmaker-block {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.alignfull .cm-sporty-bookmaker-block {
+    max-width: 100%;
+}

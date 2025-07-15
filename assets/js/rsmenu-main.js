@@ -1,4 +1,4 @@
-$(document).ready(function () {
+(function($) {
 	// Strict Mode
 	"use strict";
 
@@ -118,4 +118,4 @@ $(document).ready(function () {
 		}
 	});	
 	
-});
+})(jQuery);

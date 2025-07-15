@@ -1,0 +1,48 @@
+{
+    "name": "acf/cm-sporty-bookmakers",
+    "title": "CM Sporty Bookmakers",
+    "description": "Display bookmakers in organized rows with ratings, bonuses, and features",
+    "icon": "star-filled",
+    "category": "widgets",
+    "keywords": ["bookmaker", "betting", "casino", "cm-sporty", "sports"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "supports": {
+        "align": ["wide", "full"],
+        "anchor": true,
+        "customClassName": true,
+        "spacing": {
+            "margin": true,
+            "padding": true
+        }
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": ""
+        }
+    },
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "block_title": "Meilleurs bookmakers",
+                "disclaimer_text": "18+ | Annonce publicitaire | Jouer comporte des risques",
+                "bookmaker_rows_0_row_title": "Top Bookmakers",
+                "bookmaker_rows_0_bookmakers_0_bookmaker_name": "Unibet",
+                "bookmaker_rows_0_bookmakers_0_rating_score": "9.5",
+                "bookmaker_rows_0_bookmakers_0_bonus_amount": "110€",
+                "bookmaker_rows_0_bookmakers_0_is_featured": true,
+                "bookmaker_rows_0_bookmakers_0_features": "Interface inégalée en France\nCotes plus élevées que la moyenne",
+                "bookmaker_rows_0_bookmakers_0_promo_code": "STYVIP",
+                "bookmaker_rows_0_bookmakers_0_cta_link": "https://unibet.com",
+                "bookmaker_rows_0_bookmakers_0_review_link": "/avis-unibet"
+            }
+        }
+    },
+    "style": "file:./style.css",
+    "editorStyle": "file:./editor.css",
+    "script": "file:./block.js"
+}
