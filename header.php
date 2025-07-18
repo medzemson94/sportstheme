@@ -68,7 +68,7 @@
                         <?php if (get_theme_mod('custom_logo')): ?>
                             <img src="<?php echo esc_url(get_theme_mod('custom_logo')); ?>" alt="<?php echo esc_attr(get_bloginfo('name')); ?>">
                         <?php else: ?>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="<?php echo esc_attr(get_bloginfo('name')); ?>">
+                            <img src="https://sportywin.net/wp-content/uploads/2025/07/cropped-utuyui-scaled-1.png" alt="<?php echo esc_attr(get_bloginfo('name')); ?>">
                         <?php endif; ?>
                     </a>
                 </div>
