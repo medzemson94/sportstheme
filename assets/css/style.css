@@ -47,7 +47,7 @@ body {
   height: 100%;
   font-size: 15px;
   color: #505050;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif!important;
   vertical-align: baseline;
   line-height: 25px;
   font-weight: 400;
@@ -73,7 +73,7 @@ body {
   margin-bottom: 26px;
 }
 .title1 {
-  color: #fbc02d;
+  color: #fec24c;
   font-size: 15px;
   line-height: 25px;
   margin-bottom: 10px;
@@ -114,7 +114,7 @@ table {
   color: #434343;
 }
 .fa-heart-o:hover {
-  color: #fbc02d !important;
+  color: #fec24c !important;
 }
 .fa-user-o {
   font-size: 11px;
@@ -127,7 +127,7 @@ table {
   margin-left: 3px;
 }
 .more i:hover {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .display-table {
   display: table;
@@ -142,7 +142,7 @@ table {
   margin-bottom: 0 !important;
 }
 .primary-btn {
-  background: #fbc02d;
+  background: #fec24c;
   color: #111111;
 }
 .primary-btn:hover {
@@ -165,11 +165,11 @@ table {
   color: #111111;
 }
 .white-btn:hover {
-  background: #fbc02d;
+  background: #fec24c;
   color: #ffffff;
 }
 .round-btn {
-  background: #fbc02d;
+  background: #fec24c;
   padding: 12px 50px 12px 50px;
   color: #111111;
   font-size: 15px;
@@ -188,7 +188,7 @@ table {
 }
 .secondary-btn {
   background: transparent;
-  color: #fbc02d;
+  color: #fec24c;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 600;
@@ -222,7 +222,7 @@ table {
   font-size: 15px !important;
 }
 .more-btn2 i {
-  color: #fbc02d;
+  color: #fec24c;
   font-size: 15px;
 }
 .category-btn {
@@ -235,10 +235,10 @@ table {
   font-weight: 400;
 }
 .hvr-bounce-to-right::before {
-  background: #fbc02d;
+  background: #fec24c;
 }
 .category-page .fa-link {
-  border: 2px solid #fbc02d;
+  border: 2px solid #fec24c;
   border-radius: 100%;
   font-size: 18px;
   height: 60px;
@@ -277,7 +277,7 @@ table {
   text-transform: uppercase;
 }
 .btn-small {
-  background: #fbc02d;
+  background: #fec24c;
   color: #ffffff;
   font-size: 12px;
   text-transform: uppercase;
@@ -436,13 +436,13 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #fbc02d;
+  color: #fec24c;
   text-decoration: none;
 }
 a:active,
 a:hover {
   outline: 0 none;
-  color: #fbc02d;
+  color: #fec24c;
 }
 ul {
   list-style: outside none none;
@@ -453,11 +453,11 @@ ul {
   clear: both;
 }
 ::-moz-selection {
-  background: #fbc02d;
+  background: #fec24c;
   text-shadow: none;
 }
 ::selection {
-  background: #fbc02d;
+  background: #fec24c;
   text-shadow: none;
   color: #ffffff;
 }
@@ -505,7 +505,7 @@ ul {
 }
 .browserupgrade {
   margin: 26px 0;
-  background: #fbc02d;
+  background: #fec24c;
   color: #333333;
   padding: 26px 0;
 }
@@ -547,7 +547,7 @@ ul {
   padding-bottom: 10px;
 }
 .title-bg:after {
-  background: #fbc02d;
+  background: #fec24c;
   width: 50%;
 }
 .title-bg:after,
@@ -584,7 +584,7 @@ ul {
   content: "";
   bottom: 0;
   margin: auto;
-  background: #fbc02d;
+  background: #fec24c;
 }
 .section-title h2:before {
   position: absolute;
@@ -596,10 +596,10 @@ ul {
   content: "";
   bottom: 5px;
   margin: auto;
-  background: #fbc02d;
+  background: #fec24c;
 }
 .section-title h2 span {
-  color: #fbc02d;
+  color: #fec24c;
   font-weight: 400;
 }
 .section-title img {
@@ -639,7 +639,7 @@ ul {
 }
 .default-pagination ul li.active a,
 .default-pagination ul li a:hover {
-  background: #fbc02d;
+  background: #fec24c;
   color: #111111;
 }
 .default-pagination ul li a {
@@ -705,7 +705,7 @@ body .search-modal .close {
   z-index: 9999;
 }
 body .search-modal .close:hover {
-  background-color: #fbc02d;
+  background-color: #fec24c;
 }
 body .modal-backdrop {
   opacity: 0.95;
@@ -717,7 +717,7 @@ body .modal-backdrop {
   padding: 5px 0;
   font-size: 12px;
   line-height: 28px;
-  background: #fbc02d;
+  background: #fec24c;
 }
 .header-top-area .header-top-left ul {
   margin: 0;
@@ -782,7 +782,7 @@ body .modal-backdrop {
   opacity: 1;
   overflow: visible;
   visibility: visible;
-  background: #fbc02d;
+  background: #fec24c;
 }
 .header-top-area .header-top-left ul li:hover ul li {
   margin-left: 24px;
@@ -801,7 +801,7 @@ body .modal-backdrop {
   transition: all 0.4s ease 0s;
 }
 .header-top-area .header-top-right ul li a:hover {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .header-top-area .header-top-right ul li i {
   font-weight: 400;
@@ -872,7 +872,7 @@ body .modal-backdrop {
   color: #ffffff;
 }
 .header-middle-area .search a:hover {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .header-middle-area .item {
   position: relative;
@@ -910,7 +910,7 @@ body .modal-backdrop {
   font-weight: 600;
 }
 .header-middle-area .right-banner a {
-  color: #fbc02d;
+  color: #fec24c;
   font-size: 15px;
   font-weight: 600;
   border: 1px solid #fff;
@@ -923,7 +923,7 @@ body .modal-backdrop {
   border: 1px solid #ffffff;
 }
 .header-middle-area .right-banner .hvr-bounce-to-right::before {
-  background: #fbc02d;
+  background: #fec24c;
 }
 .header-middle-area .rs-menu .search {
   position: static;
@@ -933,7 +933,7 @@ body .modal-backdrop {
   color: #ffffff;
 }
 .header-middle-area .rs-menu .nav-menu > li > a:hover {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .header-middle-area.sticky {
   z-index: 999;
@@ -977,14 +977,14 @@ body .modal-backdrop {
   font-size: 12px;
 }
 .header-bottom-area .main-menu ul li.active a {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .header-bottom-area .main-menu ul li.active a i {
   margin-left: 10px;
   color: #111111;
 }
 .header-bottom-area .main-menu ul li.active a:hover a {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .header-bottom-area .main-menu ul li.active a:hover a i {
   margin-left: 10px;
@@ -1016,14 +1016,14 @@ body .modal-backdrop {
   z-index: 99999 !important;
   text-align: left;
   visibility: hidden;
-  border-top: 2px solid #fbc02d;
+  border-top: 2px solid #fec24c;
 }
 .header-bottom-area .main-menu ul li ul li {
   display: block;
   margin: 0;
   padding: 0;
   border-right: 0px solid transparent;
-  background: #fbc02d;
+  background: #fec24c;
 }
 .header-bottom-area .main-menu ul li ul li a i {
   float: right;
@@ -1064,7 +1064,7 @@ body .modal-backdrop {
   opacity: 0 !important;
   transition: all 0.4s ease 0s !important;
   border: none;
-  border-left: 2px solid #fbc02d;
+  border-left: 2px solid #fec24c;
 }
 .header-bottom-area .main-menu ul li ul li ul li {
   display: inline-block;
@@ -1097,7 +1097,7 @@ body .modal-backdrop {
   padding-bottom: 15px;
   left: -62px;
   box-shadow: none;
-  background: #fbc02d;
+  background: #fec24c;
 }
 .header-bottom-area .mega.sub-menu a {
   padding: 0;
@@ -1117,7 +1117,7 @@ body .modal-backdrop {
   padding: 0;
 }
 .header-bottom-area .mega.sub-menu h3 a:hover {
-  color: #fbc02d !important;
+  color: #fec24c !important;
 }
 .header-bottom-area .mega.sub-menu p {
   margin: 0;
@@ -1172,7 +1172,7 @@ body .modal-backdrop {
 }
 .fullwidth-headers3 .header-top-area .header-top-left > ul > li > a,
 .fullwidth-headers3 .header-top-area .social-media-area ul li a {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .fullwidth-headers3 .header-top-area .header-top-left > ul > li > a:hover,
 .fullwidth-headers3 .header-top-area .social-media-area ul li a:hover {
@@ -1206,7 +1206,7 @@ body .modal-backdrop {
   top: 40px;
 }
 .fullwidth-headers3 .header-middle-area .search a {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .fullwidth-headers3 .header-middle-area .search a:hover {
   color: #ffffff;
@@ -1223,7 +1223,7 @@ body .modal-backdrop {
   clear: both;
 }
 .rs-menu ul ul {
-  border-top: 4px solid #fbc02d;
+  border-top: 4px solid #fec24c;
 }
 .rs-menu ul ul li {
   border-bottom: 1px solid #333 !important;
@@ -1297,7 +1297,7 @@ body .modal-backdrop {
 .nav-menu ul .current_page_item a,
 .mega-menu li p a:hover,
 .fullwidth-headers3 .rs-menu .nav-menu > li > a {
-  color: #fbc02d !important;
+  color: #fec24c !important;
 }
 .fullwidth-headers3 .rs-menu .nav-menu > li.current_page_item > a,
 .fullwidth-headers3 .rs-menu .nav-menu > li > a:hover {
@@ -1384,7 +1384,7 @@ body .modal-backdrop {
 }
 .slider-main .dsc .btn-slider a,
 .slider-section2 .dsc .btn-slider a {
-  background: #fbc02d;
+  background: #fec24c;
   padding: 11px 40px;
   color: #111111;
   font-size: 14px;
@@ -1393,17 +1393,17 @@ body .modal-backdrop {
   font-weight: 500;
   margin-bottom: 14px;
   display: inline-block;
-  border: 2px solid #fbc02d;
+  border: 2px solid #fec24c;
 }
 .slider-main .dsc .btn-slider a:hover,
 .slider-section2 .dsc .btn-slider a:hover {
-  border: 2px solid #fbc02d;
+  border: 2px solid #fec24c;
   background: transparent;
   color: #fff;
 }
 .slider-main .dsc .btn-slider .btn1,
 .slider-section2 .dsc .btn-slider .btn1 {
-  border: 2px solid #fbc02d;
+  border: 2px solid #fec24c;
   background: transparent;
   color: #fff;
   padding: 11px 45px;
@@ -1412,7 +1412,7 @@ body .modal-backdrop {
 }
 .slider-main .dsc .btn-slider .btn1:hover,
 .slider-section2 .dsc .btn-slider .btn1:hover {
-  background: #fbc02d;
+  background: #fec24c;
 }
 .slider-main .dsc .btn-slider .btn2,
 .slider-section2 .dsc .btn-slider .btn2 {
@@ -1430,7 +1430,7 @@ body .modal-backdrop {
 .slider-section2 .owl-dots .owl-dot {
   width: 15px;
   height: 15px;
-  background: #fbc02d;
+  background: #fec24c;
   border-radius: 50%;
   margin: 0 5px;
   display: inline-block;
@@ -1449,7 +1449,7 @@ body .modal-backdrop {
   font-size: 60px;
 }
 .slider-main.slider-section4 .slider-text h1 span {
-  color: #fbc02d;
+  color: #fec24c;
   margin: 0 20px;
 }
 .slider-main.slider-section4 .slider-text .btm-date {
@@ -1465,7 +1465,7 @@ body .modal-backdrop {
 .slider-main.slider-section4 .time_circles > div span {
   font-weight: 400;
   font-size: 36px !important;
-  color: #fbc02d;
+  color: #fec24c;
   font-family: 'Poppins', sans-serif;
   margin-top: -3px;
   margin-bottom: 3px;
@@ -1484,7 +1484,7 @@ body .modal-backdrop {
   height: 100%;
 }
 .slider-section2 .item:before {
-  background: #fbc02d;
+  background: #fec24c;
   content: "";
   height: 100%;
   right: 0;
@@ -1545,14 +1545,14 @@ body .modal-backdrop {
   font-weight: 600;
   margin-bottom: 14px;
   display: inline-block;
-  border: 2px solid #fbc02d;
+  border: 2px solid #fec24c;
 }
 .slider-section2 .innner-slider .btn-slider a:hover {
-  background: #fbc02d;
+  background: #fec24c;
   border: 2px solid #111111;
 }
 .breking-new-area {
-  background: #fbc02d;
+  background: #fec24c;
   position: relative;
 }
 .breking-new-area:after {
@@ -1592,7 +1592,7 @@ body .modal-backdrop {
   right: 0;
   z-index: 111;
   width: 80px;
-  background: #fbc02d;
+  background: #fec24c;
   height: 50px;
   text-align: right;
 }
@@ -1664,7 +1664,7 @@ body .modal-backdrop {
 }
 .banner-sections .banner-text-area .banner-innner h1 span {
   display: block;
-  color: #fbc02d;
+  color: #fec24c;
   margin: 12px 0 0;
 }
 .fullwidth-section4 {
@@ -1704,7 +1704,7 @@ body .modal-backdrop {
   color: #ffffff;
 }
 .fullwidth-section4 .header-middle-area4 .search a:hover {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .fullwidth-section4 .header-middle-area4.sticky {
   background-color: rgba(0, 0, 0, 0.8);
@@ -1719,7 +1719,7 @@ body .modal-backdrop {
 }
 .fullwidth-section2 .rs-menu .nav-menu > li > a:hover,
 .fullwidth-section4 .rs-menu .nav-menu > li > a:hover {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .fullwidth-section2 {
   position: relative;
@@ -1748,7 +1748,7 @@ body .modal-backdrop {
   padding-right: 20px;
 }
 .fullwidth-section2 .header-middle-area .rs-menu ul li ul.sub-menu li a:hover {
-  color: #fbc02d !important;
+  color: #fec24c !important;
 }
 .fullwidth-section2 .header-middle-area .search a {
   color: #111111;
@@ -1843,7 +1843,7 @@ body .modal-backdrop {
   line-height: 80px;
 }
 .slider-sections-area3 #slider-images ul li .single-slide h1 span {
-  background: #fbc02d;
+  background: #fec24c;
   display: inline-block;
   padding: 0 15px 8px;
 }
@@ -1930,10 +1930,10 @@ body .modal-backdrop {
 .our-history-sections .history-innner .about-history .single-about.active i,
 .our-history-sections .history-innner .about-history .single-about:hover span,
 .our-history-sections .history-innner .about-history .single-about.active span {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .rs-history-area {
-  background-color: #fbc02d;
+  background-color: #fec24c;
 }
 .rs-history-area .history-innner {
   padding: 68px 0 64px;
@@ -1959,7 +1959,7 @@ body .modal-backdrop {
 }
 .rs-history-area .history-innner .tabs-menu li a i {
   display: block;
-  color: #fbc02d;
+  color: #fec24c;
   margin-bottom: 12px;
 }
 .rs-history-area .history-innner .tabs-menu li.active a,
@@ -1979,7 +1979,7 @@ body .modal-backdrop {
 .rs-history-area .history-innner .position h4 {
   font-size: 18px;
   font-weight: 500;
-  font-family: #fbc02d;
+  font-family: #fec24c;
   text-align: center;
   margin: 0;
 }
@@ -2000,11 +2000,12 @@ body .modal-backdrop {
 5. Upcoming Section Start Here 
 ---------------------------------------*/
 .upcoming-section {
-  background: url(../images/upcoming/1.jpg) no-repeat center top;
+ 
   background-size: cover;
+  background-color: #fec24c;
 }
 .upcoming-section .owl-nav i:hover {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .upcoming-section,
 .upcoming-section2 {
@@ -2071,7 +2072,7 @@ body .modal-backdrop {
 .upcoming-section2 .vs,
 .upcoming-section3 .vs,
 .upcoming-section4 .vs {
-  color: #fbc02d;
+  color: #fec24c;
   font-size: 25px;
   font-weight: 600;
   padding: 50px 0;
@@ -2126,7 +2127,7 @@ body .modal-backdrop {
 .upcoming-section2.upcoming-section2 .owl-carousel .owl-nav .owl-next:hover,
 .upcoming-section3.upcoming-section2 .owl-carousel .owl-nav .owl-next:hover,
 .upcoming-section4.upcoming-section2 .owl-carousel .owl-nav .owl-next:hover {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .upcoming-section.upcoming-section3,
 .upcoming-section2.upcoming-section3,
@@ -2203,7 +2204,7 @@ body .modal-backdrop {
 .upcoming-section2.upcoming-section4 h4,
 .upcoming-section3.upcoming-section4 h4,
 .upcoming-section4.upcoming-section4 h4 {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .upcoming-section.upcoming-section3 .owl-prev,
 .upcoming-section2.upcoming-section3 .owl-prev,
@@ -2323,11 +2324,11 @@ body .modal-backdrop {
 }
 .latest-news .inner-news .news-text ul.rating li i,
 .latest-news2 .inner-news .news-text ul.rating li i {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .latest-news .inner-news:hover .news-text h5 a,
 .latest-news2 .inner-news:hover .news-text h5 a {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .latest-news .inner-news:hover .primary-btn,
 .latest-news2 .inner-news:hover .primary-btn {
@@ -2405,7 +2406,7 @@ body .modal-backdrop {
   z-index: 11;
 }
 .match-list .match-table tr td a {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .match-list .match-table tr td a:hover {
   color: #ffffff;
@@ -2418,7 +2419,7 @@ body .modal-backdrop {
   font-weight: 500;
 }
 .match-list .match-table tr td:nth-child(2n) {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .match-list .match-table tr:nth-child(2n) td {
   background: rgba(0, 0, 0, 0.6);
@@ -2437,7 +2438,7 @@ body .modal-backdrop {
   width: 36px;
   font-size: 0;
   border: 0;
-  background-color: #fbc02d;
+  background-color: #fec24c;
   color: #ffffff;
   cursor: pointer;
   outline: 0;
@@ -2486,8 +2487,8 @@ body .modal-backdrop {
 }
 .latest-news-nav .slick-slide.slick-current,
 .latest-news-nav .slick-slide:hover {
-  background-color: #fbc02d;
-  border-color: #fbc02d;
+  background-color: #fec24c;
+  border-color: #fec24c;
 }
 .latest-news-nav .slick-slide.slick-current img,
 .latest-news-nav .slick-slide:hover img {
@@ -2518,7 +2519,7 @@ body .modal-backdrop {
   font-weight: 500;
   display: inline-block;
   margin-right: 4px;
-  color: #fbc02d;
+  color: #fec24c;
 }
 .all-news-area .news-normal-block .news-date span {
   color: #505050;
@@ -2532,7 +2533,7 @@ body .modal-backdrop {
 }
 .all-news-area .news-normal-block .news-title a:hover,
 .all-news-area .news-normal-block .news-title a:focus {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .all-news-area .news-normal-block .news-desc p {
   margin-bottom: 20px;
@@ -2548,7 +2549,7 @@ body .modal-backdrop {
   color: #fff;
 }
 .all-news-area .news-normal-block .news-btn a:hover {
-  background-color: #fbc02d;
+  background-color: #fec24c;
 }
 .all-news-area .news-list-block .news-list-item {
   padding: 15px;
@@ -2587,7 +2588,7 @@ body .modal-backdrop {
   font-weight: 500;
   display: inline-block;
   margin-right: 4px;
-  color: #fbc02d;
+  color: #fec24c;
 }
 .all-news-area .news-list-block .news-list-item .news-date span {
   color: #505050;
@@ -2601,7 +2602,7 @@ body .modal-backdrop {
 }
 .all-news-area .news-list-block .news-list-item .news-title a:hover,
 .all-news-area .news-list-block .news-list-item .news-title a:focus {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .all-news-area .news-list-block .news-list-item .news-btn a {
   display: inline-block;
@@ -2610,7 +2611,7 @@ body .modal-backdrop {
   font-size: 13px;
   font-weight: 500;
   text-decoration: none;
-  background-color: #fbc02d;
+  background-color: #fec24c;
   color: #fff;
 }
 .all-news-area .news-list-block .news-list-item .news-btn a:hover {
@@ -2680,11 +2681,11 @@ body .modal-backdrop {
   font-size: 24px;
 }
 .today-match-teams .today-score .today-final-score span {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .today-match-teams .today-score .today-final-score h4 {
   margin: 16px 0 0;
-  color: #fbc02d;
+  color: #fec24c;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 15px;
@@ -2711,7 +2712,7 @@ body .modal-backdrop {
   border: none;
 }
 .today-match-teams .recent-match-results .view-all-result a {
-  color: #fbc02d;
+  color: #fec24c;
   display: block;
   height: 45px;
   line-height: 45px;
@@ -2727,7 +2728,7 @@ body .modal-backdrop {
   color: #ffffff;
 }
 .today-match-teams .today-results-table tr td.tb-title.first-child {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .today-match-teams .today-results-table tr td {
   font-family: 'Poppins', sans-serif;
@@ -2752,7 +2753,7 @@ body .modal-backdrop {
 }
 .today-match-teams .today-results-table tr:first-child td.tb-title,
 .today-match-teams .today-results-table tr:first-child td {
-  color: #fbc02d;
+  color: #fec24c;
   font-size: 14px;
   position: relative;
   z-index: 11;
@@ -2761,7 +2762,7 @@ body .modal-backdrop {
   border-top: 1px solid #555555;
 }
 .today-match-teams .today-results-table .view-score a {
-  color: #fbc02d;
+  color: #fec24c;
   display: block;
   height: 56px;
   line-height: 56px;
@@ -2779,7 +2780,7 @@ body .modal-backdrop {
   background: #111111;
 }
 .point-list table.point-table tr:first-child td {
-  color: #fbc02d;
+  color: #fec24c;
   font-weight: 600;
 }
 .point-list table.point-table th,
@@ -2827,7 +2828,7 @@ body .modal-backdrop {
   font-weight: 400;
 }
 .latest-video-section .small-news .news-text span.date {
-  color: #fbc02d;
+  color: #fec24c;
   font-size: 12px;
   font-weight: 600;
 }
@@ -2883,7 +2884,7 @@ body .modal-backdrop {
 }
 .videos-icon {
   z-index: 99;
-  border: 2px solid #fbc02d;
+  border: 2px solid #fec24c;
   padding: 3px;
   border-radius: 50%;
   width: 100px;
@@ -2898,7 +2899,7 @@ body .modal-backdrop {
   width: 90px;
   border-radius: 50%;
   text-align: center;
-  color: #fbc02d;
+  color: #fec24c;
   display: block;
   background: #fff;
   transition: 0.3s;
@@ -2906,7 +2907,7 @@ body .modal-backdrop {
   -ms-transition: 0.3s;
 }
 .videos-icon a:hover {
-  border-color: #fbc02d;
+  border-color: #fec24c;
   background: transparent;
 }
 .videos-icon a i {
@@ -2934,7 +2935,7 @@ body .modal-backdrop {
   content: "\f10e";
   font-family: "FontAwesome";
   font-size: 20px;
-  color: #fbc02d;
+  color: #fec24c;
   font-weight: 700;
   display: block;
   bottom: 0;
@@ -2947,7 +2948,7 @@ body .modal-backdrop {
   padding: 0 10%;
 }
 .testimonial-section .testimonial-inner .author-name {
-  color: #fbc02d;
+  color: #fec24c;
   font-size: 18px;
   font-weight: 500;
 }
@@ -2963,7 +2964,7 @@ body .modal-backdrop {
   padding-left: 18%;
 }
 .testimonial-section #testimonial-slider .testimonial .testimonial-content .client-rating i {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .testimonial-section #testimonial-slider .testimonial .testimonial-content .client-rating:after {
   content: "";
@@ -3073,7 +3074,7 @@ body .modal-backdrop {
   content: "\f10e";
   font-family: "FontAwesome";
   font-size: 20px;
-  color: #fbc02d;
+  color: #fec24c;
   font-weight: 700;
   display: block;
   bottom: 0;
@@ -3088,7 +3089,7 @@ body .modal-backdrop {
   margin: 6px 0 0;
 }
 .testimonil-section-page .slick-current {
-  background: #fbc02d;
+  background: #fec24c;
   margin-top: 60px;
   border-radius: 0;
   position: relative;
@@ -3104,7 +3105,7 @@ body .modal-backdrop {
   top: 0;
   height: 100%;
   content: "";
-  background: #fbc02d;
+  background: #fec24c;
   width: 40px;
   z-index: 11;
 }
@@ -3144,7 +3145,7 @@ body .modal-backdrop {
   -ms-transition: 0.4s;
 }
 .our-team-section .our-team .person-details .overly-bg {
-  background: #fbc02d;
+  background: #fec24c;
 }
 .our-team-section .our-team .person-details h3.person-name,
 .our-team-section .our-team .person-details h5.person-name,
@@ -3195,7 +3196,7 @@ body .modal-backdrop {
   margin-bottom: 30px;
 }
 .our-team-section .best-footballer {
-  background: #fbc02d;
+  background: #fec24c;
   padding: 40px 25px 45px;
 }
 .our-team-section .best-footballer h4 {
@@ -3282,7 +3283,7 @@ body .modal-backdrop {
   color: #111111;
 }
 .squad-list .list-item .list-text .name h4 a:hover {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .squad-list .list-item .list-text .name h4 a i {
   transform: scale(0.9);
@@ -3300,7 +3301,7 @@ body .modal-backdrop {
   text-align: center;
 }
 .squad-list .list-item .list-text .email a {
-  color: #fbc02d;
+  color: #fec24c;
   text-decoration: none;
 }
 .squad-list .list-item .list-text .mobile {
@@ -3315,7 +3316,7 @@ body .modal-backdrop {
   padding: 0;
 }
 .squad-list .list-item .list-text .social-icon a {
-  background: #fbc02d;
+  background: #fec24c;
   color: #fff;
   display: inline-block;
   font-size: 16px;
@@ -3389,7 +3390,7 @@ body .modal-backdrop {
   font-size: 24px;
   width: 120px;
   height: 120px;
-  border-top: 4px solid #fbc02d;
+  border-top: 4px solid #fec24c;
   border-bottom: 4px solid #ddd;
   line-height: 120px;
   text-align: center;
@@ -3437,7 +3438,7 @@ body .modal-backdrop {
   margin-left: 0;
   margin-right: 0;
   padding: 20px;
-  background-color: #fbc02d;
+  background-color: #fec24c;
 }
 .rs-team-single-section .rs-team-single-text .single-details .single-team-info {
   padding: 0;
@@ -3525,7 +3526,7 @@ body .modal-backdrop {
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
   color: #000;
-  background-color: #fbc02d;
+  background-color: #fec24c;
   margin-top: 30px;
   border: none;
   width: 170px;
@@ -3647,7 +3648,7 @@ body .modal-backdrop {
 .gallery-section-area #gallery-items .grid-item .heading-conent ul li i,
 .gallery-section-area .grid .single-gallery .heading-conent ul li i,
 .gallery-section-area #gallery-items .single-gallery .heading-conent ul li i {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .gallery-section-area .grid .grid-item .bottom-icons,
 .gallery-section-area #gallery-items .grid-item .bottom-icons,
@@ -3668,7 +3669,7 @@ body .modal-backdrop {
 .gallery-section-area #gallery-items .grid-item .bottom-icons ul li i,
 .gallery-section-area .grid .single-gallery .bottom-icons ul li i,
 .gallery-section-area #gallery-items .single-gallery .bottom-icons ul li i {
-  color: #fbc02d;
+  color: #fec24c;
   padding-left: 15px;
 }
 .gallery-section-area .grid .grid-item:hover:after,
@@ -3714,7 +3715,7 @@ body .modal-backdrop {
   content: "";
   width: 100%;
   height: 100%;
-  background: #fbc02d;
+  background: #fec24c;
   position: absolute;
   top: 0;
   left: 0;
@@ -3798,7 +3799,7 @@ body .modal-backdrop {
   content: "";
   width: 100%;
   height: 100%;
-  background: #fbc02d;
+  background: #fec24c;
   position: absolute;
   top: 0;
   left: 0;
@@ -3903,16 +3904,16 @@ body .modal-backdrop {
   font-weight: 600;
   border: none;
   text-transform: uppercase;
-  border: 1px solid #fbc02d;
+  border: 1px solid #fec24c;
   padding: 6px 30px;
   border-radius: 2px;
 }
 .champion-section-area .point-menu li a:hover {
-  color: #fbc02d;
+  color: #fec24c;
   background-color: unset;
 }
 .champion-section-area .point-menu li.active a {
-  color: #fbc02d !important;
+  color: #fec24c !important;
 }
 .champion-section-area .champion-inner {
   position: relative;
@@ -3921,7 +3922,7 @@ body .modal-backdrop {
   clear: both;
   overflow: hidden;
   margin-bottom: 0;
-  border-top: 2px solid #fbc02d;
+  border-top: 2px solid #fec24c;
 }
 .champion-section-area .champion-inner:last-child {
   margin-bottom: 0;
@@ -3945,7 +3946,7 @@ body .modal-backdrop {
 .champion-section-area .champion-inner .champion-details .champion-year {
   float: left;
   margin-right: 20px;
-  color: #fbc02d;
+  color: #fec24c;
   font-size: 45px;
   font-weight: 500;
 }
@@ -3957,7 +3958,7 @@ body .modal-backdrop {
   margin: 0 0 5px;
 }
 .champion-section-area #squad-list .image img {
-  border: 4px solid #fbc02d;
+  border: 4px solid #fec24c;
 }
 .champion-section-area #jersy {
   overflow: hidden;
@@ -3991,14 +3992,14 @@ body .modal-backdrop {
   top: -10px;
   border-top: 5px solid;
   border-right: 5px solid;
-  border-color: #fbc02d;
+  border-color: #fec24c;
 }
 .our-products-section .single-product .product-image:before {
   left: -10px;
   bottom: -10px;
   border-left: 5px solid;
   border-bottom: 5px solid;
-  border-color: #fbc02d;
+  border-color: #fec24c;
 }
 .our-products-section .single-product .product-image .overly {
   position: absolute;
@@ -4024,7 +4025,7 @@ body .modal-backdrop {
   font-weight: 500;
 }
 .our-products-section .single-product .product-tile a:hover {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .our-products-section .single-product .product-tile span {
   display: block;
@@ -4077,7 +4078,7 @@ body .modal-backdrop {
   background: #000000;
 }
 .our-products-section .single-product:hover .product-cart a {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .our-products-page .single-product {
   margin-bottom: 40px;
@@ -4139,7 +4140,7 @@ body .modal-backdrop {
 .single-product-page .single-product-area .single-product-nav .slick-next:hover::before,
 .single-product-page .single-product-area .single-product-nav .slick-next:focus::before {
   opacity: 1;
-  color: #fbc02d;
+  color: #fec24c;
 }
 .single-product-page .single-price-info h3 {
   font-size: 24px;
@@ -4165,7 +4166,7 @@ body .modal-backdrop {
   margin-right: 10px;
 }
 .single-product-page .single-price-info ul.single-product-icons li a:hover {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .single-product-page .single-price-info p.cat strong,
 .single-product-page .single-price-info p.tag strong {
@@ -4203,7 +4204,7 @@ body .modal-backdrop {
 }
 .single-product-page .product-description ul.nav-menus li.active a,
 .single-product-page .product-description ul.nav-menus li a:hover {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .single-product-page .our-products-section {
   margin-top: 40px;
@@ -4289,7 +4290,7 @@ body .modal-backdrop {
   font-family: 'Poppins', sans-serif;
 }
 .rs-blog .single-blog-slide .blog-details h3 a:hover {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .rs-blog .single-blog-slide .blog-details p {
   margin-bottom: 15px;
@@ -4305,7 +4306,7 @@ body .modal-backdrop {
   font-weight: 400;
   background: transparent;
   font-family: 'Poppins', sans-serif;
-  border: 2px solid #fbc02d;
+  border: 2px solid #fec24c;
   padding: 5px 16px;
   border-radius: 2px;
 }
@@ -4316,7 +4317,7 @@ body .modal-backdrop {
   transform: scale(1.1);
 }
 .rs-blog .single-blog-slide:hover .read-more a {
-  background: #fbc02d;
+  background: #fec24c;
 }
 .rs-blog .owl-nav div {
   height: 30px;
@@ -4331,7 +4332,7 @@ body .modal-backdrop {
   -ms-transform: translateY(-50%);
 }
 .rs-blog .owl-nav div:hover {
-  background-color: #fbc02d;
+  background-color: #fec24c;
   opacity: 0.6;
 }
 .rs-blog .owl-nav div i {
@@ -4432,14 +4433,14 @@ body .modal-backdrop {
   margin-left: 14px;
 }
 .single-blog-details .share-section .share-link1 li a:hover {
-  background: #fbc02d;
+  background: #fec24c;
   color: #111111;
-  border: 1px solid #fbc02d;
+  border: 1px solid #fec24c;
 }
 .single-blog-details .share-section .share-link1 li:first-child a {
-  background: #fbc02d;
+  background: #fec24c;
   color: #111111;
-  border: 1px solid #fbc02d;
+  border: 1px solid #fec24c;
 }
 .single-blog-details .share-section .life-style span {
   font-size: 12px;
@@ -4463,13 +4464,13 @@ body .modal-backdrop {
   margin-right: 4px;
 }
 .single-blog-details .share-section .life-style span a:hover {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .single-blog-details .share-section .life-style span.author a {
   color: #777777;
 }
 .single-blog-details .share-section .life-style span.author a:hover {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .single-blog-details .share-section2 {
   border: 1px solid #ddd;
@@ -4500,9 +4501,9 @@ body .modal-backdrop {
   margin-left: 14px;
 }
 .single-blog-details .share-section2 .share-link li a:hover {
-  background: #fbc02d;
+  background: #fec24c;
   color: #fff;
-  border: 1px solid #fbc02d;
+  border: 1px solid #fec24c;
 }
 .single-blog-details .like-section .col-sm-4 h3 {
   margin: 14px 0 6px;
@@ -4524,7 +4525,7 @@ body .modal-backdrop {
   transition: all 0.4s ease 0s;
 }
 .single-blog-details .like-section .col-sm-4:hover a {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .single-blog-details .like-section .col-sm-4:hover .popular-post-img img {
   opacity: .5;
@@ -4548,10 +4549,10 @@ body .modal-backdrop {
   color: #111111;
 }
 .single-blog-details .next-pre-section li a:hover {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .single-blog-details .next-pre-section li a:hover i {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .single-blog-details .next-pre-section li.left-arrow {
   float: left;
@@ -4632,7 +4633,7 @@ body .modal-backdrop {
   color: #111111;
 }
 .single-blog-details .author-comment ul li .reply a:hover {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .single-blog-details .author-comment ul li .reply i {
   color: #111111;
@@ -4641,7 +4642,7 @@ body .modal-backdrop {
   margin: 0 0 12px;
 }
 .single-blog-details .author-comment ul li .dsc-comments a {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .single-blog-details .author-comment ul li .dsc-comments p {
   margin: 6px 0 0;
@@ -4682,7 +4683,7 @@ body .modal-backdrop {
   max-width: 100%;
 }
 .single-blog-details .leave-comments-area .btn-send {
-  background: #fbc02d;
+  background: #fec24c;
   font-weight: 600;
   color: #111111;
   font-size: 15px;
@@ -4737,7 +4738,7 @@ body .modal-backdrop {
   top: 6px;
 }
 .sidebar-area .search-box .btn:hover i {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .sidebar-area span.title {
   font-size: 18px;
@@ -4746,7 +4747,7 @@ body .modal-backdrop {
   text-transform: uppercase;
   display: block;
   font-family: 'Poppins', sans-serif;
-  background: #fbc02d;
+  background: #fec24c;
   padding: 12px 20px;
   margin: 0 0 25px;
 }
@@ -4777,7 +4778,7 @@ body .modal-backdrop {
 }
 .sidebar-area .cate-box ul li:hover a,
 .sidebar-area .archives-box ul li:hover a {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .sidebar-area .cate-box ul li:first-child,
 .sidebar-area .archives-box ul li:first-child {
@@ -4825,7 +4826,7 @@ body .modal-backdrop {
   border-bottom: none;
 }
 .sidebar-area .recent-post-area ul li:hover a {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .sidebar-area .recent-post-area ul li:hover img {
   opacity: .5;
@@ -4853,12 +4854,12 @@ body .modal-backdrop {
   line-height: 28px;
 }
 .sidebar-area .tag-area ul li a:hover {
-  background: #fbc02d;
-  border-color: #fbc02d;
+  background: #fec24c;
+  border-color: #fec24c;
   color: #111111;
 }
 .sidebar-area .newsletter-area {
-  background: #fbc02d;
+  background: #fec24c;
   margin-top: 45px;
   text-align: center;
   padding: 30px 20px;
@@ -4903,7 +4904,7 @@ body .modal-backdrop {
   transition: all 0.4s ease 0s;
 }
 .sidebar-area .newsletter-area .btn:hover i {
-  color: #fbc02d;
+  color: #fec24c;
 }
 /* ------------------------------------
 20  Footer Section Start here 
@@ -4929,7 +4930,7 @@ body .modal-backdrop {
   bottom: -2px;
   height: 2px;
   width: 50px;
-  background-color: #fbc02d;
+  background-color: #fec24c;
 }
 .footer-section .footer-top {
   padding: 100px 0 95px;
@@ -4950,7 +4951,7 @@ body .modal-backdrop {
   height: 65px;
   flex: 0 0 70px;
   text-align: center;
-  background-color: #fbc02d;
+  background-color: #fec24c;
   color: #111111;
   margin-right: 15px;
 }
@@ -5058,9 +5059,9 @@ body .modal-backdrop {
 }
 .footer-section .footer-subscribe input[type="submit"] {
   margin-bottom: 0;
-  background: #fbc02d;
+  background: #fec24c;
   padding: 0;
-  border: 2px solid #fbc02d;
+  border: 2px solid #fec24c;
   transition: 0.4s;
   -webkit-transition: 0.4s;
   -ms-transition: 0.4s;
@@ -5080,7 +5081,7 @@ body .modal-backdrop {
   margin-bottom: 0;
 }
 .footer-bottom .copyright a {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .footer-bottom .copyright a:hover,
 .footer-bottom .copyright a:focus {
@@ -5151,7 +5152,7 @@ body .modal-backdrop {
   background: #383838;
 }
 .footer-bottom .footer-bottom-share ul li a:hover {
-  color: #fbc02d;
+  color: #fec24c;
 }
 /* ------------------------------------
 21. Breadcrumbs Start here 
@@ -5167,7 +5168,7 @@ body .modal-backdrop {
   content: "";
   top: 0;
   left: 0;
-  background: linear-gradient(#111111 40%, #fbc02d);
+  background: linear-gradient(#111111 40%, #fec24c);
   opacity: 0.8;
 }
 .rs-breadcrumbs img {
@@ -5197,7 +5198,7 @@ body .modal-backdrop {
   padding: 4px 20px;
 }
 .rs-breadcrumbs ul li {
-  color: #fbc02d;
+  color: #fec24c;
   display: inline-block;
   font-size: 15px;
   font-weight: 600;
@@ -5211,7 +5212,7 @@ body .modal-backdrop {
   color: #ffffff;
 }
 .rs-breadcrumbs ul li a:hover {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .rs-breadcrumbs ul li a:after {
   content: "\f0c1";
@@ -5232,7 +5233,7 @@ body .modal-backdrop {
   position: fixed;
   bottom: 30px;
   right: 20px;
-  background: #fbc02d;
+  background: #fec24c;
   width: 50px;
   height: 50px;
   display: block;
@@ -5293,7 +5294,7 @@ body .modal-backdrop {
   color: #fff;
 }
 .tickers span:hover {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .tickers .owl-nav {
   position: absolute;
@@ -5305,7 +5306,7 @@ body .modal-backdrop {
 }
 .tickers .owl-nav .owl-prev {
   float: left;
-  background: #fbc02d;
+  background: #fec24c;
   color: #fff;
   padding: 2px 10px;
 }
@@ -5314,7 +5315,7 @@ body .modal-backdrop {
 }
 .tickers .owl-nav .owl-next {
   float: right;
-  background: #fbc02d;
+  background: #fec24c;
   color: #fff;
   padding: 2px 10px;
 }
@@ -5333,7 +5334,7 @@ body .modal-backdrop {
   font-weight: 500;
 }
 .shipping-area .button-area ul li.active a {
-  background: #fbc02d;
+  background: #fec24c;
   color: #fff;
 }
 .shipping-area .product-list table {
@@ -5438,7 +5439,7 @@ body .modal-backdrop {
   right: 20px;
 }
 .shipping-area .product-list table tr td .prize {
-  color: #fbc02d;
+  color: #fec24c;
   font-size: 18px;
   font-weight: 500;
   padding-right: 50px;
@@ -5455,7 +5456,7 @@ body .modal-backdrop {
   color: #ccc;
 }
 .shipping-area .product-list table tr td i:hover {
-  background: #fbc02d;
+  background: #fec24c;
   color: #fff;
 }
 .shipping-area .product-list .total span {
@@ -5471,8 +5472,8 @@ body .modal-backdrop {
 }
 .shipping-area .next-step a {
   padding: 10px 30px;
-  border: 1px solid #fbc02d;
-  background: #fbc02d !important;
+  border: 1px solid #fec24c;
+  background: #fec24c !important;
   color: #fff;
   text-transform: capitalize;
   font-size: 18px;
@@ -5597,7 +5598,7 @@ body .modal-backdrop {
 .shipping-area .panel-group a .checkbox label input[type="checkbox"] + .cr > .cr-icon {
   opacity: 1;
   display: block;
-  color: #fbc02d;
+  color: #fec24c;
   width: 15px;
   height: 15px;
 }
@@ -5618,11 +5619,11 @@ body .modal-backdrop {
   margin-bottom: 25px;
 }
 .coupon-fields .apply-coupon {
-  background: #fbc02d;
+  background: #fec24c;
   border: none;
   color: #111111;
   padding: 6px 8px;
-  border: 1px solid #fbc02d;
+  border: 1px solid #fec24c;
   transition: all 0.4s ease 0s;
 }
 .coupon-fields .apply-coupon:hover {
@@ -5660,7 +5661,7 @@ body .modal-backdrop {
   padding: 0 10px;
 }
 .contact-page-section .contact-address-section i {
-  color: #fbc02d;
+  color: #fec24c;
   font-size: 36px;
   margin: 0;
   padding: 0;
@@ -5680,12 +5681,12 @@ body .modal-backdrop {
   padding: 0;
 }
 .contact-page-section .contact-address-section .contact-address {
-  border: 1px solid #fbc02d;
+  border: 1px solid #fec24c;
   margin: 25px 0 25px 10px;
   padding: 30px 0;
 }
 .contact-page-section .contact-address-section .contact-phone {
-  border: 1px solid #fbc02d;
+  border: 1px solid #fec24c;
   margin: 25px 0;
   padding: 30px 0;
 }
@@ -5694,15 +5695,15 @@ body .modal-backdrop {
   color: #cccccc;
 }
 .contact-page-section .contact-address-section .contact-phone a:hover {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .contact-page-section .contact-address-section .contact-email {
-  border: 1px solid #fbc02d;
+  border: 1px solid #fec24c;
   margin: 25px 10px 25px 0;
   padding: 30px 0;
 }
 .contact-page-section .contact-address-section .contact-email p:hover {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .contact-page-section .contact-comment-section h3 {
   font-size: 18px;
@@ -5730,7 +5731,7 @@ body .modal-backdrop {
 .contact-page-section .contact-comment-section form .form-group input.btn-send {
   text-transform: uppercase;
   color: #111111;
-  background-color: #fbc02d;
+  background-color: #fec24c;
   margin-top: 15px;
   border: none;
   height: 50px;
@@ -5744,7 +5745,7 @@ body .modal-backdrop {
 }
 .contact-page-section .contact-comment-section form .form-group input.btn-send:hover {
   background: #111111;
-  color: #fbc02d;
+  color: #fec24c;
 }
 /*....................................
 25. Check Out css Start Here
@@ -5844,7 +5845,7 @@ body .modal-backdrop {
 .rs-check-out .rs-payment-system input.btn-send {
   width: 100%;
   margin-top: 25px;
-  background-color: #fbc02d;
+  background-color: #fec24c;
   color: #111111;
   font-weight: 600;
   text-transform: uppercase;
@@ -5857,7 +5858,7 @@ body .modal-backdrop {
   -ms-transition: 0.4s;
 }
 .rs-check-out .rs-payment-system input.btn-send:hover {
-  color: #fbc02d;
+  color: #fec24c;
   background: #111111;
 }
 /*....................................
@@ -5880,11 +5881,11 @@ body .modal-backdrop {
   text-transform: uppercase;
 }
 .point-menu li a:hover {
-  color: #fbc02d;
+  color: #fec24c;
   background-color: unset;
 }
 .point-menu li.active a {
-  color: #fbc02d !important;
+  color: #fec24c !important;
 }
 .tab-content table {
   border-left: 1px solid #e1e1e1;
@@ -5904,7 +5905,7 @@ body .modal-backdrop {
   width: 45px;
 }
 .tab-content table tr:hover {
-  background-color: #fbc02d;
+  background-color: #fec24c;
 }
 .tab-content table tr:first-child {
   background-color: #000;
@@ -5912,7 +5913,7 @@ body .modal-backdrop {
 .tab-content table tr:first-child td {
   padding: 8px 0 8px 10px;
   border: none;
-  color: #fbc02d;
+  color: #fec24c;
 }
 .match-fixtures-page .match-list {
   background: url(../images/match-bg2.jpg);
@@ -5951,7 +5952,7 @@ body .modal-backdrop {
 .rs-result .team-result table tr.single-result td.match-result .match-score {
   display: inline-block;
   padding: 2px 15px;
-  background: #fbc02d;
+  background: #fec24c;
   color: #111111;
   font-weight: bold;
 }
@@ -5959,7 +5960,7 @@ body .modal-backdrop {
   display: block;
 }
 .rs-result .team-result table tr.single-result td.view-statictics a {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .rs-result .team-result table tr.single-result td.view-statictics a:hover {
   color: #ffffff;
@@ -6005,7 +6006,7 @@ body .modal-backdrop {
   font-size: 22px;
 }
 .rs-result-single .match-stats .team-name a {
-  color: #fbc02d;
+  color: #fec24c;
 }
 .rs-result-single .match-stats .team-name a:hover {
   color: #ffffff;
@@ -6031,7 +6032,7 @@ body .modal-backdrop {
   background: rgba(0, 0, 0, 0.6);
 }
 .rs-result-single .match-stats .stat-title {
-  color: #fbc02d;
+  color: #fec24c;
 }
 /*....................................
 27. World Cup-page page css Start Here
@@ -6056,14 +6057,14 @@ body .modal-backdrop {
   background: #111111 !important;
 }
 .world-cup-page .match-summary table tr td:nth-child(2n+1) {
-  background-color: #fbc02d;
+  background-color: #fec24c;
   color: #111111;
 }
 .world-cup-page .match-summary table tr td:nth-child(2n) {
   color: #505050;
 }
 .world-cup-page .match-summary table tr.full-area {
-  background: #fbc02d !important;
+  background: #fec24c !important;
 }
 .world-cup-page .match-summary table tr.full-area td {
   background: #111111 !important;
@@ -6121,7 +6122,7 @@ body .modal-backdrop {
   position: absolute;
   width: 20px;
   height: 20px;
-  background: #fbc02d;
+  background: #fec24c;
   opacity: 1;
   border-radius: 20px;
   animation: preloader 1s infinite ease-in-out;
