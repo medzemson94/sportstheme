@@ -611,7 +611,7 @@ ul {
   margin-bottom: 30px;
 }
 .menu-sticky.sticky {
-  background-color: rgba(0, 0, 0, 0.95);
+  background-color: rgba(255, 252, 252, 0.95);
   position: fixed !important;
   z-index: 9999;
   width: 100%;
@@ -849,7 +849,7 @@ body .modal-backdrop {
   margin-left: 15px;
 }
 .header-middle-area {
-  background: #111111;
+  background: #ffff;
 }
 .header-middle-area .rs-menu {
   position: relative;
@@ -930,7 +930,7 @@ body .modal-backdrop {
   right: 0;
 }
 .header-middle-area .rs-menu .nav-menu > li > a {
-  color: #ffffff;
+  color: #111111;
 }
 .header-middle-area .rs-menu .nav-menu > li > a:hover {
   color: #fec24c;
@@ -4910,14 +4910,14 @@ body .modal-backdrop {
 20  Footer Section Start here 
 ---------------------------------------*/
 .footer-section {
-  background-color: #111111;
+  background-color: #ffffff;
   color: #afb0b2;
 }
 .footer-section .footer-title {
   margin-bottom: 35px;
   padding-bottom: 12px;
   border-bottom: 2px solid #999;
-  color: #fff;
+  color: #000000;
   font-size: 18px;
   position: relative;
   font-weight: 500;
@@ -5045,7 +5045,7 @@ body .modal-backdrop {
 .footer-section .footer-subscribe input {
   font-size: 15px;
   padding: 8px 15px;
-  border: none;
+  border: 1px solid #ccc;
   border-radius: 0;
   height: 45px;
   display: block;

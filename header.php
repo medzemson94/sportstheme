@@ -33,7 +33,7 @@
                         <ul>
                             <li>
                                 <a href="mailto:support@rstheme.com">
-                                    <i class="fa fa-envelope-o" aria-hidden="true"></i> support@rstheme.com
+                                    <i class="fa fa-envelope-o" aria-hidden="true"></i> contact@sportywin.com
                                 </a>
                             </li>
                         </ul>
@@ -59,7 +59,7 @@
     </div>
 
     <!-- Header Middle Area -->
-    <div class="header-middle-area menu-sticky">
+    <div class="header-middle-area menu-sticky" style="backround-color: white!important;">
         <div class="container">
             <div class="row">
                 <!-- Logo -->
@@ -84,6 +84,7 @@
                                 'theme_location' => 'primary',
                                 'menu_class' => 'nav-menu',
                                 'container' => false,
+                                'menu_id' => 'primary-menu',
                             ));
                             ?>
                         </nav>

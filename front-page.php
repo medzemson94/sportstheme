@@ -17,17 +17,10 @@ get_header(); ?>
                             <div class="slider-text">
                                 <h1 data-animation-in="slideInDown" data-animation-out="animate-out slideOutUp">Parie sur l’actu, vis le foot à 200%</h1>
                                
-                                <div class="btn-slider">
-                                    <a href="#" class="btn1" data-animation-in="slideInUp" data-animation-out="animate-out slideOutDown">Read More</a>
-                                    <a href="#" class="btn2" data-animation-in="slideInDown" data-animation-out="animate-out slideOutUp">Book a Ticket</a>
-                                </div>
+                             
                             </div>
                         </div>
-                        <div class="col-sm-4 col-xs-4 hidden-420">
-                            <div class="slider-image">
-                                <img data-animation-in="bounceInRight" data-animation-out="animate-out fadeOut" src="<?php echo get_template_directory_uri(); ?>/assets/images/full-slider/image-layer.png" alt="layer image">
-                            </div>
-                        </div>
+                       
                     </div>
                 </div>
             </div>
@@ -38,10 +31,7 @@ get_header(); ?>
                 <div class="container text-right">
                     <h1 data-animation-in="slideInLeft" data-animation-out="animate-out slideOutUp">Foot, passion, anticipation.</h1>
                    
-                    <div class="btn-slider">
-                        <a href="#" class="btn1" data-animation-in="slideInUp" data-animation-out="animate-out slideOutDown">Read More</a>
-                        <a href="#" class="btn2" data-animation-in="slideInUp" data-animation-out="animate-out slideOutDown">Book a Ticket</a>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -52,21 +42,11 @@ get_header(); ?>
                     <div class="row">
                         <div class="col-sm-8 col-xs-8">
                             <div class="slider-text">
-                                <h1 data-animation-in="slideInDown" data-animation-out="animate-out slideOutUp">Netro FC denied victory</h1>
-                                <div data-animation-in="slideInRight" data-animation-out="animate-out fadeOut" class="btm-date">
-                                    There are many variations of passages of Lorem Ipsum available but the majority have <br class="hidden-xs hidden-sm" />suffered alteration in some form
-                                </div>
-                                <div class="btn-slider">
-                                    <a href="#" class="btn1" data-animation-in="slideInUp" data-animation-out="animate-out slideOutDown">Read More</a>
-                                    <a href="#" class="btn2" data-animation-in="slideInDown" data-animation-out="animate-out slideOutUp">Book a Ticket</a>
-                                </div>
+                                <h1 data-animation-in="slideInDown" data-animation-out="animate-out slideOutUp">Joue avec  la Bonne Infos et  Gagne </h1>
+                                
                             </div>
                         </div>
-                        <div class="col-sm-4 col-xs-4 hidden-420">
-                            <div class="slider-image">
-                                <img data-animation-in="bounceInRight" data-animation-out="animate-out fadeOut" src="<?php echo get_template_directory_uri(); ?>/assets/images/full-slider/image-layer2.png" alt="layer image">
-                            </div>
-                        </div>
+                      
                     </div>
                 </div>
             </div>
@@ -120,7 +100,7 @@ get_header(); ?>
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <h3 class="title-bg">Latest News</h3>
+                <h3 class="title-bg">Actualités</h3>
                 <div class="row">
                     <div class="col-sm-9">
                         <div class="latest-news-slider">
@@ -145,7 +125,7 @@ get_header(); ?>
                                                 <p><?php echo wp_trim_words(get_the_excerpt(), 20); ?></p>
                                             </div>
                                             <div class="news-btn">
-                                                <a class="primary-btn" href="<?php the_permalink(); ?>">Read More</a>
+                                                <a class="primary-btn" href="<?php the_permalink(); ?>">Lire plus</a>
                                             </div>
                                         </div>
                                     </div>
@@ -442,65 +422,69 @@ get_header(); ?>
 <div class="latest-video-section sec-spacer">
     <div class="overly-bg"></div>
     <div class="container">
-        <h3 class="title-bg">Latest video</h3>
+        <h3 class="title-bg">Pronostics</h3>
         <div class="row">
-            <div class="col-md-8">
-                <div class="video-area mmb-40">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/latest-video/video.jpg" alt="Video" />
-                    <div class="videos-icon">
-                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=t17O6JoU2Ew">
-                            <i class="fa fa-play" aria-hidden="true"></i>
-                        </a>
+            <?php
+            // Query posts from pronostics category
+            $args = array(
+                'post_type' => 'post',
+                'category_name' => 'pronostics',
+                'posts_per_page' => 4
+            );
+            
+            $pronostics_query = new WP_Query($args);
+            
+            if ($pronostics_query->have_posts()) :
+            ?>
+                <div class="col-md-8">
+                    <?php
+                    // Display first post prominently
+                    $pronostics_query->the_post();
+                    ?>
+                    <div class="video-area mmb-40">
+                        <?php if (has_post_thumbnail()) : ?>
+                            <a href="<?php the_permalink(); ?>">
+                                <?php the_post_thumbnail('large'); ?>
+                            </a>
+                        <?php endif; ?>
+                        <div class="news-text">
+                            <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                            <span class="date"><?php echo get_the_date(); ?></span>
+                            <?php the_excerpt(); ?>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4 latest-news">
-                <div class="inner-news small-news">
-                    <div class="news-img">
-                        <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/latest-video/1.jpg" alt="News" /></a>
-                    </div>
-                    <div class="news-text">
-                        <h5><a href="blog-single.html">Badda FC vs Banni FC Highlights 1-1</a></h5>
-                        <span class="date">May 30, 2017</span>
-                        <ul class="rating">
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                        </ul>
-                    </div>
+                
+                <div class="col-md-4 latest-news">
+                    <?php
+                    // Display remaining posts
+                    while ($pronostics_query->have_posts()) : $pronostics_query->the_post();
+                    ?>
+                        <div class="inner-news small-news">
+                            <div class="news-img">
+                                <a href="<?php the_permalink(); ?>">
+                                    <?php 
+                                    if (has_post_thumbnail()) {
+                                        the_post_thumbnail('thumbnail');
+                                    }
+                                    ?>
+                                </a>
+                            </div>
+                            <div class="news-text">
+                                <h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
+                                <span class="date"><?php echo get_the_date(); ?></span>
+                            </div>
+                        </div>
+                    <?php
+                    endwhile;
+                    wp_reset_postdata();
+                    ?>
                 </div>
-                <div class="inner-news small-news">
-                    <div class="news-img">
-                        <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/latest-video/2.jpg" alt="News" /></a>
-                    </div>
-                    <div class="news-text">
-                        <h5><a href="blog-single.html">Badda FC vs Banni FC Highlights 1-1</a></h5>
-                        <span class="date">May 30, 2017</span>
-                        <ul class="rating">
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="inner-news small-news">
-                    <div class="news-img">
-                        <a href="blog-single.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/latest-video/3.jpg" alt="News" /></a>
-                    </div>
-                    <div class="news-text">
-                        <h5><a href="blog-single.html">Badda FC vs Banni FC Highlights 1-1</a></h5>
-                        <span class="date">May 30, 2017</span>
-                        <ul class="rating">
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            <?php
+            else :
+                echo '<div class="col-md-12">No pronostics posts found.</div>';
+            endif;
+            ?>
         </div>
     </div>
 </div>

@@ -4,46 +4,59 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3">
-						<h4 class="footer-title">about us</h4>
+						<h4 class="footer-title">à propos de nous</h4>
                             <div class="about-widget">
-                                <p>We create Premium Html Template for more than three years. Our team goal is to reunite the elegance of unique.</p>
-                                <p class="margin-remove">We create Unique and Easy To Use Flexible Html  Template.</p>
+                                <p>Découvrez notre plateforme de paris sportifs en ligne, offrant les meilleures cotes et une expérience de jeu sécurisée.</p>
+                                <p class="margin-remove">Pariez sur vos équipes favorites et profitez de nos bonus exclusifs pour maximiser vos gains.</p>
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <h4 class="footer-title">Recent Posts</h4>
+                            <h4 class="footer-title">Articles Récents</h4>
                             <div class="recent-post-widget">
-                                <div class="post-item">
-                                    <div class="post-date">
-                                        <span>28</span>
-                                        <span>June</span>
-                                    </div>
-                                    <div class="post-desc">
-                                        <h5 class="post-title"><a href="blog-single.html">Welcome to Soccer Template</a></h5>
-                                        <span class="post-category">Design</span>
-                                    </div>
-                                </div>
-                                <div class="post-item">
-                                    <div class="post-date">
-                                        <span>30</span>
-                                        <span>July</span>
-                                    </div>
-                                    <div class="post-desc">
-                                        <h5 class="post-title"><a href="blog-single.html">Welcome to sports template</a></h5>
-                                        <span class="post-category">Design</span>
-                                    </div>
-                                </div>
+<?php
+$args = array(
+    'post_type' => 'post',
+    'posts_per_page' => 2,
+    'orderby' => 'date',
+    'order' => 'DESC'
+);
+
+$recent_posts = new WP_Query($args);
+
+if ($recent_posts->have_posts()):
+    while ($recent_posts->have_posts()):
+        $recent_posts->the_post();
+        ?>
+        <div class="post-item">
+            <div class="post-date">
+                <span><?php echo get_the_date('d'); ?></span>
+                <span><?php echo get_the_date('F'); ?></span>
+            </div>
+            <div class="post-desc">
+                <h5 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
+                <span class="post-category"><?php echo get_the_category()[0]->name; ?></span>
+            </div>
+        </div>
+<?php
+    endwhile;
+    wp_reset_postdata();
+endif;
+?>
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <h4 class="footer-title">Useful Links</h4>
+                            <h4 class="footer-title">Liens Utiles</h4>
                             <ul class="sitemap-widget">
-                                <li class="active"><a href="about.html">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="point-table.html">Point Table</a></li> 
-                                               <li><a href="world-cup.html">World Cup</a></li> 
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+<?php
+wp_nav_menu(array(
+    'theme_location' => 'footer-menu',
+    'container' => false,
+    'menu_class' => 'footer-menu',
+    'items_wrap' => '%3$s',
+    'fallback_cb' => false,
+    'walker' => new Walker_Nav_Menu()
+));
+?>
                             </ul>
                         </div>
                         <div class="col-md-3">
